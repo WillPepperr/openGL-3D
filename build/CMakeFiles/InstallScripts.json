@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/will/Dev/artDisplay/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

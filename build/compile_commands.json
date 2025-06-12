@@ -1,0 +1,68 @@
+[
+{
+  "directory": "/home/will/Dev/artDisplay/build",
+  "command": "/usr/bin/c++  -I/home/will/Dev/artDisplay/include -I/home/will/Dev/artDisplay/external/imgui -std=gnu++17 -o CMakeFiles/ArtDisplay.dir/main.cpp.o -c /home/will/Dev/artDisplay/main.cpp",
+  "file": "/home/will/Dev/artDisplay/main.cpp",
+  "output": "CMakeFiles/ArtDisplay.dir/main.cpp.o"
+},
+{
+  "directory": "/home/will/Dev/artDisplay/build",
+  "command": "/usr/bin/cc  -I/home/will/Dev/artDisplay/include -I/home/will/Dev/artDisplay/external/imgui  -o CMakeFiles/ArtDisplay.dir/src/glad.c.o -c /home/will/Dev/artDisplay/src/glad.c",
+  "file": "/home/will/Dev/artDisplay/src/glad.c",
+  "output": "CMakeFiles/ArtDisplay.dir/src/glad.c.o"
+},
+{
+  "directory": "/home/will/Dev/artDisplay/build",
+  "command": "/usr/bin/c++  -I/home/will/Dev/artDisplay/include -I/home/will/Dev/artDisplay/external/imgui -std=gnu++17 -o CMakeFiles/ArtDisplay.dir/src/cube.cpp.o -c /home/will/Dev/artDisplay/src/cube.cpp",
+  "file": "/home/will/Dev/artDisplay/src/cube.cpp",
+  "output": "CMakeFiles/ArtDisplay.dir/src/cube.cpp.o"
+},
+{
+  "directory": "/home/will/Dev/artDisplay/build",
+  "command": "/usr/bin/c++  -I/home/will/Dev/artDisplay/include -I/home/will/Dev/artDisplay/external/imgui -std=gnu++17 -o CMakeFiles/ArtDisplay.dir/src/ground.cpp.o -c /home/will/Dev/artDisplay/src/ground.cpp",
+  "file": "/home/will/Dev/artDisplay/src/ground.cpp",
+  "output": "CMakeFiles/ArtDisplay.dir/src/ground.cpp.o"
+},
+{
+  "directory": "/home/will/Dev/artDisplay/build",
+  "command": "/usr/bin/c++  -I/home/will/Dev/artDisplay/include -I/home/will/Dev/artDisplay/external/imgui -std=gnu++17 -o CMakeFiles/ArtDisplay.dir/src/skybox.cpp.o -c /home/will/Dev/artDisplay/src/skybox.cpp",
+  "file": "/home/will/Dev/artDisplay/src/skybox.cpp",
+  "output": "CMakeFiles/ArtDisplay.dir/src/skybox.cpp.o"
+},
+{
+  "directory": "/home/will/Dev/artDisplay/build",
+  "command": "/usr/bin/c++  -I/home/will/Dev/artDisplay/include -I/home/will/Dev/artDisplay/external/imgui -std=gnu++17 -o CMakeFiles/ArtDisplay.dir/external/imgui/imgui.cpp.o -c /home/will/Dev/artDisplay/external/imgui/imgui.cpp",
+  "file": "/home/will/Dev/artDisplay/external/imgui/imgui.cpp",
+  "output": "CMakeFiles/ArtDisplay.dir/external/imgui/imgui.cpp.o"
+},
+{
+  "directory": "/home/will/Dev/artDisplay/build",
+  "command": "/usr/bin/c++  -I/home/will/Dev/artDisplay/include -I/home/will/Dev/artDisplay/external/imgui -std=gnu++17 -o CMakeFiles/ArtDisplay.dir/external/imgui/imgui_draw.cpp.o -c /home/will/Dev/artDisplay/external/imgui/imgui_draw.cpp",
+  "file": "/home/will/Dev/artDisplay/external/imgui/imgui_draw.cpp",
+  "output": "CMakeFiles/ArtDisplay.dir/external/imgui/imgui_draw.cpp.o"
+},
+{
+  "directory": "/home/will/Dev/artDisplay/build",
+  "command": "/usr/bin/c++  -I/home/will/Dev/artDisplay/include -I/home/will/Dev/artDisplay/external/imgui -std=gnu++17 -o CMakeFiles/ArtDisplay.dir/external/imgui/imgui_tables.cpp.o -c /home/will/Dev/artDisplay/external/imgui/imgui_tables.cpp",
+  "file": "/home/will/Dev/artDisplay/external/imgui/imgui_tables.cpp",
+  "output": "CMakeFiles/ArtDisplay.dir/external/imgui/imgui_tables.cpp.o"
+},
+{
+  "directory": "/home/will/Dev/artDisplay/build",
+  "command": "/usr/bin/c++  -I/home/will/Dev/artDisplay/include -I/home/will/Dev/artDisplay/external/imgui -std=gnu++17 -o CMakeFiles/ArtDisplay.dir/external/imgui/imgui_widgets.cpp.o -c /home/will/Dev/artDisplay/external/imgui/imgui_widgets.cpp",
+  "file": "/home/will/Dev/artDisplay/external/imgui/imgui_widgets.cpp",
+  "output": "CMakeFiles/ArtDisplay.dir/external/imgui/imgui_widgets.cpp.o"
+},
+{
+  "directory": "/home/will/Dev/artDisplay/build",
+  "command": "/usr/bin/c++  -I/home/will/Dev/artDisplay/include -I/home/will/Dev/artDisplay/external/imgui -std=gnu++17 -o CMakeFiles/ArtDisplay.dir/external/imgui/imgui_impl_glfw.cpp.o -c /home/will/Dev/artDisplay/external/imgui/imgui_impl_glfw.cpp",
+  "file": "/home/will/Dev/artDisplay/external/imgui/imgui_impl_glfw.cpp",
+  "output": "CMakeFiles/ArtDisplay.dir/external/imgui/imgui_impl_glfw.cpp.o"
+},
+{
+  "directory": "/home/will/Dev/artDisplay/build",
+  "command": "/usr/bin/c++  -I/home/will/Dev/artDisplay/include -I/home/will/Dev/artDisplay/external/imgui -std=gnu++17 -o CMakeFiles/ArtDisplay.dir/external/imgui/imgui_impl_opengl3.cpp.o -c /home/will/Dev/artDisplay/external/imgui/imgui_impl_opengl3.cpp",
+  "file": "/home/will/Dev/artDisplay/external/imgui/imgui_impl_opengl3.cpp",
+  "output": "CMakeFiles/ArtDisplay.dir/external/imgui/imgui_impl_opengl3.cpp.o"
+}
+]

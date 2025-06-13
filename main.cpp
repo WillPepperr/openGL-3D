@@ -1,4 +1,5 @@
 #include <iostream>
+#include <unistd.h>
 
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
@@ -10,6 +11,8 @@
 #include "imgui.h"
 #include "imgui_impl_glfw.h"
 #include "imgui_impl_opengl3.h"
+
+#include "OBJ_Loader.h"
 
 #include "shaders.h"
 #include "camera.h"
@@ -110,6 +113,15 @@ int main(){
 
 	Shader skyBoxShader("shaders/skyBox.vert", "shaders/skyBox.frag");
 	skyBoxShader.useShader();
+
+
+	char cwd[1024];
+	getcwd(cwd, sizeof(cwd));
+	std::cout << "CWD: " << cwd << std::endl;
+	objl::Loader loader;
+	bool is_loaded = loader.LoadFile("/home/will/Dev/artDisplay/assets/cat/12221_Cat_v1_l3.obj"); 
+	if (!is_loaded)
+		std::cerr << "Failed to load OBJ file!" << std::endl;
 
 	glm::mat4 projection = glm::perspective(glm::radians(camera.Zoom), (float)SCR_WIDTH / (float)SCR_HEIGHT, 0.1f, 600.0f);
 	

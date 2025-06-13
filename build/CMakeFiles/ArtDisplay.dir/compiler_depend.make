@@ -1190,6 +1190,7 @@ CMakeFiles/ArtDisplay.dir/main.cpp.o: /home/will/Dev/artDisplay/main.cpp \
   /home/will/Dev/artDisplay/external/imgui/imgui_impl_glfw.h \
   /home/will/Dev/artDisplay/external/imgui/imgui_impl_opengl3.h \
   /home/will/Dev/artDisplay/include/KHR/khrplatform.h \
+  /home/will/Dev/artDisplay/include/OBJ_Loader.h \
   /home/will/Dev/artDisplay/include/camera.h \
   /home/will/Dev/artDisplay/include/cube.h \
   /home/will/Dev/artDisplay/include/glad/glad.h \
@@ -1213,15 +1214,19 @@ CMakeFiles/ArtDisplay.dir/main.cpp.o: /home/will/Dev/artDisplay/main.cpp \
   /usr/include/assert.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
+  /usr/include/bits/confname.h \
   /usr/include/bits/cpu-set.h \
   /usr/include/bits/endian.h \
   /usr/include/bits/endianness.h \
+  /usr/include/bits/environments.h \
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
   /usr/include/bits/flt-eval-method.h \
   /usr/include/bits/fp-fast.h \
   /usr/include/bits/fp-logb.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/bits/getopt_posix.h \
   /usr/include/bits/iscanonical.h \
   /usr/include/bits/libc-header-start.h \
   /usr/include/bits/libm-simd-decl-stubs.h \
@@ -1235,6 +1240,7 @@ CMakeFiles/ArtDisplay.dir/main.cpp.o: /home/will/Dev/artDisplay/main.cpp \
   /usr/include/bits/mathcalls.h \
   /usr/include/bits/posix1_lim.h \
   /usr/include/bits/posix2_lim.h \
+  /usr/include/bits/posix_opt.h \
   /usr/include/bits/pthread_stack_min-dynamic.h \
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/pthreadtypes.h \
@@ -1281,6 +1287,7 @@ CMakeFiles/ArtDisplay.dir/main.cpp.o: /home/will/Dev/artDisplay/main.cpp \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/uintn-identity.h \
   /usr/include/bits/uio_lim.h \
+  /usr/include/bits/unistd_ext.h \
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
@@ -1335,12 +1342,15 @@ CMakeFiles/ArtDisplay.dir/main.cpp.o: /home/will/Dev/artDisplay/main.cpp \
   /usr/include/c++/15.1.1/bits/sstream.tcc \
   /usr/include/c++/15.1.1/bits/std_abs.h \
   /usr/include/c++/15.1.1/bits/stl_algobase.h \
+  /usr/include/c++/15.1.1/bits/stl_bvector.h \
   /usr/include/c++/15.1.1/bits/stl_construct.h \
   /usr/include/c++/15.1.1/bits/stl_function.h \
   /usr/include/c++/15.1.1/bits/stl_iterator.h \
   /usr/include/c++/15.1.1/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/15.1.1/bits/stl_iterator_base_types.h \
   /usr/include/c++/15.1.1/bits/stl_pair.h \
+  /usr/include/c++/15.1.1/bits/stl_uninitialized.h \
+  /usr/include/c++/15.1.1/bits/stl_vector.h \
   /usr/include/c++/15.1.1/bits/streambuf.tcc \
   /usr/include/c++/15.1.1/bits/streambuf_iterator.h \
   /usr/include/c++/15.1.1/bits/string_view.tcc \
@@ -1348,6 +1358,7 @@ CMakeFiles/ArtDisplay.dir/main.cpp.o: /home/will/Dev/artDisplay/main.cpp \
   /usr/include/c++/15.1.1/bits/uses_allocator.h \
   /usr/include/c++/15.1.1/bits/uses_allocator_args.h \
   /usr/include/c++/15.1.1/bits/utility.h \
+  /usr/include/c++/15.1.1/bits/vector.tcc \
   /usr/include/c++/15.1.1/bits/version.h \
   /usr/include/c++/15.1.1/cassert \
   /usr/include/c++/15.1.1/cctype \
@@ -1405,6 +1416,7 @@ CMakeFiles/ArtDisplay.dir/main.cpp.o: /home/will/Dev/artDisplay/main.cpp \
   /usr/include/c++/15.1.1/tuple \
   /usr/include/c++/15.1.1/type_traits \
   /usr/include/c++/15.1.1/typeinfo \
+  /usr/include/c++/15.1.1/vector \
   /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
   /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/basic_file.h \
   /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
@@ -1607,6 +1619,7 @@ CMakeFiles/ArtDisplay.dir/main.cpp.o: /home/will/Dev/artDisplay/main.cpp \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
   /usr/include/limits.h \
+  /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
   /usr/include/linux/limits.h \
   /usr/include/linux/posix_types.h \
@@ -1628,6 +1641,7 @@ CMakeFiles/ArtDisplay.dir/main.cpp.o: /home/will/Dev/artDisplay/main.cpp \
   /usr/include/sys/single_threaded.h \
   /usr/include/sys/types.h \
   /usr/include/time.h \
+  /usr/include/unistd.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/emmintrin.h \
@@ -2850,6 +2864,12 @@ CMakeFiles/ArtDisplay.dir/src/skybox.cpp.o: /home/will/Dev/artDisplay/src/skybox
 
 /usr/include/glm/ext/quaternion_common.inl:
 
+/usr/include/glm/ext/matrix_transform.inl:
+
+/usr/include/glm/ext/matrix_projection.inl:
+
+/usr/include/glm/ext/matrix_projection.hpp:
+
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/clwbintrin.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avxneconvertintrin.h:
@@ -2885,6 +2905,10 @@ CMakeFiles/ArtDisplay.dir/src/skybox.cpp.o: /home/will/Dev/artDisplay/src/skybox
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx512fp16vlintrin.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/clzerointrin.h:
+
+/usr/include/glm/ext/matrix_transform.hpp:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx512fp16intrin.h:
 
 /usr/include/glm/ext/vector_int2_sized.hpp:
 
@@ -2950,11 +2974,17 @@ CMakeFiles/ArtDisplay.dir/src/skybox.cpp.o: /home/will/Dev/artDisplay/src/skybox
 
 /usr/include/c++/15.1.1/bits/allocator.h:
 
+/home/will/Dev/artDisplay/include/OBJ_Loader.h:
+
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/mwaitxintrin.h:
 
 /usr/include/glm/ext/quaternion_geometric.hpp:
 
 /usr/include/glm/ext/matrix_float2x2_precision.hpp:
+
+/usr/include/glm/ext/matrix_float4x4_precision.hpp:
+
+/usr/include/math.h:
 
 /usr/include/glm/gtc/type_ptr.inl:
 
@@ -2981,6 +3011,10 @@ CMakeFiles/ArtDisplay.dir/src/skybox.cpp.o: /home/will/Dev/artDisplay/src/skybox
 /usr/include/sys/select.h:
 
 /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/gthr-default.h:
+
+/usr/include/glm/ext/quaternion_common.hpp:
+
+/usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/c++config.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/amxcomplexintrin.h:
 
@@ -3224,8 +3258,6 @@ CMakeFiles/ArtDisplay.dir/external/imgui/imgui_impl_opengl3.cpp.o:
 
 /usr/include/glm/detail/type_quat.inl:
 
-/usr/include/c++/15.1.1/tuple:
-
 /usr/include/bits/types/__sigval_t.h:
 
 CMakeFiles/ArtDisplay.dir/src/glad.c.o:
@@ -3356,6 +3388,10 @@ CMakeFiles/ArtDisplay.dir/src/cube.cpp.o:
 
 /usr/include/bits/posix2_lim.h:
 
+/usr/include/c++/15.1.1/tuple:
+
+/usr/include/c++/15.1.1/vector:
+
 /usr/include/glm/ext/matrix_float2x3_precision.hpp:
 
 /usr/include/bits/sigevent-consts.h:
@@ -3373,10 +3409,6 @@ CMakeFiles/ArtDisplay.dir/src/cube.cpp.o:
 /usr/include/bits/stdint-least.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/cetintrin.h:
-
-/usr/include/glm/ext/matrix_float3x3.hpp:
-
-/usr/include/glm/ext/matrix_transform.inl:
 
 /usr/include/bits/types/cookie_io_functions_t.h:
 
@@ -3700,6 +3732,8 @@ CMakeFiles/ArtDisplay.dir/main.cpp.o:
 
 /usr/include/asm-generic/int-ll64.h:
 
+/usr/include/c++/15.1.1/bits/stl_vector.h:
+
 /usr/lib/libdl.a:
 
 /usr/include/c++/15.1.1/cwctype:
@@ -3798,6 +3832,8 @@ CMakeFiles/ArtDisplay.dir/main.cpp.o:
 
 /usr/include/c++/15.1.1/bits/sstream.tcc:
 
+/usr/include/c++/15.1.1/bits/stl_bvector.h:
+
 /usr/include/c++/15.1.1/bits/stl_function.h:
 
 /usr/include/c++/15.1.1/bits/streambuf.tcc:
@@ -3813,6 +3849,10 @@ CMakeFiles/ArtDisplay.dir/main.cpp.o:
 /usr/include/c++/15.1.1/bits/uses_allocator_args.h:
 
 /usr/include/glm/ext/matrix_double3x2_precision.hpp:
+
+/usr/include/glm/ext/matrix_float3x3.hpp:
+
+/usr/include/c++/15.1.1/bits/vector.tcc:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx512vpopcntdqintrin.h:
 
@@ -3891,6 +3931,8 @@ CMakeFiles/ArtDisplay.dir/main.cpp.o:
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx512bitalgintrin.h:
 
 /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/ctype_inline.h:
+
+/usr/include/c++/15.1.1/bits/stl_uninitialized.h:
 
 /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/error_constants.h:
 
@@ -4007,19 +4049,3 @@ CMakeFiles/ArtDisplay.dir/main.cpp.o:
 /usr/include/glm/detail/func_trigonometric.inl:
 
 /usr/include/glm/ext/matrix_float4x4.hpp:
-
-/usr/include/math.h:
-
-/usr/include/glm/ext/matrix_float4x4_precision.hpp:
-
-/usr/include/glm/ext/matrix_projection.hpp:
-
-/usr/include/glm/ext/matrix_projection.inl:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx512fp16intrin.h:
-
-/usr/include/glm/ext/matrix_transform.hpp:
-
-/usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/c++config.h:
-
-/usr/include/glm/ext/quaternion_common.hpp:
